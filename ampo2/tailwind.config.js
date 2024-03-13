@@ -5,7 +5,13 @@ export default {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    
+    extend: {
+      fontFamily: {
+        robot: ['Roboto', 'ui-sans-serif', 'system-ui'],
+        title: ['Montserrat', 'ui-sans-serif', 'system-ui'],
+      }
+    },
   },
   plugins: [],
 }
