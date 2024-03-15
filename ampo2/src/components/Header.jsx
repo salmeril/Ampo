@@ -7,7 +7,7 @@ import { IoMdClose } from "react-icons/io";
 const Header = () => {
     const [showMenu, setShowMenu] = useState(false);
   return (
-    <header className="flex items-center justify-between xl:justify-start relative w-full p-4 h-[12vh] z-50">
+    <header className="flex mt-3 items-center justify-between xl:justify-start relative w-full p-4 h-[12vh] z-50">
         <div className="w-1/2 md:w-1/3 xl:w-1/6 items-center flex">
             <a href=""><img className="" src={logo} alt="logo" /></a>
             
