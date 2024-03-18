@@ -1,6 +1,7 @@
 import Header from './components/Header';
 import Nosotros from './components/Nosotros';
 import Historia from './components/Historia'
+import Bazar from './components/Bazar';
 
 function App() {
    return (
@@ -8,6 +9,7 @@ function App() {
       <Header/>
       <Nosotros/>
       <Historia/>
+      <Bazar/>
     </>
   )
 }
