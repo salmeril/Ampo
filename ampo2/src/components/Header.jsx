@@ -17,7 +17,7 @@ const Header = () => {
             <a className="text-xl hover:text-2xl transition-all duration-600" href="">Nosotros</a>
             <a className="text-xl hover:text-2xl transition-all duration-600" href="">Contacto</a>
             <a className="text-xl hover:text-2xl transition-all duration-600" href="">Productos</a>
-            <a className="text-xl hover:text-2xl transition-all duration-600" href="">Home</a>
+            <a className="text-xl hover:text-2xl transition-all duration-600" href="">Tienda</a>
         </nav>
         <button onClick={() => setShowMenu(!showMenu)} className="xl:hidden text-2xl p-2">
             {showMenu ? <IoMdClose /> : <GiHamburgerMenu />}
