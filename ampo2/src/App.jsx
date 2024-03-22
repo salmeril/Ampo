@@ -3,6 +3,8 @@ import Nosotros from './components/Nosotros';
 import Historia from './components/Historia'
 import Bazar from './components/Bazar';
 import Catalogos from './components/Catalogos';
+import Contacto from './components/Contacto';
+import Footer from './components/Footer';
 
 function App() {
    return (
@@ -12,6 +14,8 @@ function App() {
       <Historia/>
       <Bazar/>
       <Catalogos/>
+      <Contacto/>
+      <Footer/>
     </>
   )
 }
