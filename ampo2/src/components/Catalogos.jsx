@@ -45,7 +45,7 @@ const Catalogos = () => {
             </div>
 
             <div className="hidden md:flex justify-center mt-2 items-center ">
-                <img src={fotoprueba} className=" mt-1 mr-[3vh] lg:mr-[53vh] h-72 lg:h-[43vh] md:w-[47vh] lg:w-[60vh] " alt="catalogo vidrio deco" />
+                <img src={fotoprueba} className=" mt-1 mr-[3vh] lg:mr-[53vh] md:ml-[2vh] h-72 lg:h-[43vh] md:w-[47vh] lg:w-[60vh] " alt="catalogo vidrio deco" />
 
             </div>
 
@@ -57,7 +57,7 @@ const Catalogos = () => {
         <div className="grid md:m-9 md:grid-cols-2 md:mt-[-7vh] lg:mt-[-8vh]  lg:pl-72 ">
                 
                 <div className="hidden md:flex justify-center mt-2 items-center ">
-                    <img src={fotoprueba2} className=" mr-[3vh] md:mr-[-2vh] md:ml-[1vh] h-72 lg:h-[43vh] md:w-[46vh] lg:w-[60vh] " alt="catalogo vidrio deco" />
+                    <img src={fotoprueba2} className=" mr-[3vh] md:mr-[-3vh] z-20 md:ml-[1vh] h-72 lg:h-[43vh] md:w-[46vh] lg:w-[60vh] " alt="catalogo vidrio deco" />
 
                 </div>
 
