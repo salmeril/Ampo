@@ -27,7 +27,7 @@ const Catalogos = () => {
         
             <div className="grid md:m-9 md:grid-cols-2 lg:pl-72 ">
         
-                <div className=" w-[53vh] md:w-[46vh] z-10 md:ml-[3vh] h-[46vh] md:h-[30vh] lg:h-[40vh] lg:w-[60vh] bg-gray-100 m-3 ">
+                <div className=" w-[53vh] md:w-[46vh] z-10 md:ml-[3vh] h-[46vh] md:h-[30vh] lg:h-[40vh] lg:w-[60vh] lg:ml-[12vh] bg-gray-100 m-3 ">
 
                     <h3 className="font-title m-7 text-center text-2xl lg:text-3xl lg:m-10 font-bold text-gray-500">
                         Catalogo envases de vidro decoración
@@ -45,7 +45,7 @@ const Catalogos = () => {
             </div>
 
             <div className="hidden md:flex justify-center mt-2 items-center ">
-                <img src={fotoprueba} className=" mt-1 mr-[3vh] lg:mr-[53vh] md:ml-[2vh] h-72 lg:h-[43vh] md:w-[47vh] lg:w-[60vh] " alt="catalogo vidrio deco" />
+                <img src={fotoprueba} className=" mt-1 mr-[3vh] md:mr-[5vh] lg:mr-[53vh] md:ml-[2vh] h-72 lg:h-[43vh] md:w-[47vh] lg:w-[60vh] " alt="catalogo vidrio deco" />
 
             </div>
 
@@ -57,11 +57,11 @@ const Catalogos = () => {
         <div className="grid md:m-9 md:grid-cols-2 md:mt-[-7vh] lg:mt-[-8vh]  lg:pl-72 ">
                 
                 <div className="hidden md:flex justify-center mt-2 items-center ">
-                    <img src={fotoprueba2} className=" mr-[3vh] md:mr-[-3vh] z-20 md:ml-[1vh] h-72 lg:h-[43vh] md:w-[46vh] lg:w-[60vh] " alt="catalogo vidrio deco" />
+                    <img src={fotoprueba2} className=" mr-[3vh] md:mr-[-3vh] z-20 md:ml-[1vh] h-72 lg:h-[43vh] md:w-[46vh] lg:w-[60vh] lg:ml-[-4vh] " alt="catalogo vidrio deco" />
 
                 </div>
 
-                <div className=" w-[53vh] md:w-[46vh] z-10 md:ml-[0vh] md:mt-[1vh] h-[46vh] md:h-[30vh] lg:h-[40vh] lg:w-[60vh] lg:ml-[-14vh] bg-gray-100 m-3 ">
+                <div className=" w-[53vh] md:w-[46vh] z-10 md:ml-[0vh] md:mt-[1vh] h-[46vh] md:h-[30vh] lg:h-[40vh] lg:w-[60vh] lg:ml-[-13vh] bg-gray-100 m-3 ">
 
                     <h3 className="font-title m-7 text-center text-2xl lg:text-3xl lg:m-10 font-bold text-gray-500">
                     Catalogo botella plastico
