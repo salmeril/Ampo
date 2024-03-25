@@ -7,7 +7,7 @@ import insta from '../assets/icons/instagram.png'
 
 const Footer = () => {
   return (
-    <footer className="static bottom-0 left-0 w-full bg-gray-700 text-white text-center">
+    <footer className="static bottom-0 left-0 w-auto bg-gray-700 text-white text-center">
         <div className=" bg-gray-500 grid grid-cols-2 ">
        <div className=" w-4/6 md:w-1/3 xl:w-1/3 items-center flex lg:">
             <a href=""><img className="w-[25vh] md:ml-[5vh] lg:w-[25vh] lg:mt-[-4vh] lg:mb-[-4vh] lg:ml-[15vh]" src={logo} alt="logo" /></a>

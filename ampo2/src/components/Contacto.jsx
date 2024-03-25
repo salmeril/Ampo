@@ -8,9 +8,9 @@ import fotocontacto from '../assets/images/contactoimg.png'
 
 const Contacto = () => {
   return (
-    <section id="contacto">
-        <div className="text-center mb-10">
-            <h2 className="font-title font-bold text-2xl ml-[11vh] text-start md:ml-[11vh] lg:ml-[70vh] md:text-4xl md:mb-8 mt-10 text-gray-500 ">
+    <section id="contacto" className=" h-[100vh] md:h-[100vh]">
+        <div className="text-center md:mt-[20vh] lg:mt-20 ">
+            <h2 className="font-title font-bold text-2xl ml-[10vh] text-start md:ml-[11vh] lg:ml-[70vh] md:text-4xl  mt-52 text-gray-500 ">
                 Contactos
             </h2>
 
@@ -22,7 +22,7 @@ const Contacto = () => {
 
                         </div>
                         <div>
-                            <h3 className="text-start font-robot text-lg ml-[-8vh] lg:ml-[26vh]">
+                            <h3 className="text-start font-robot text-lg ml-[-6vh] lg:ml-[26vh]">
                                 Ventas: <br />
                                 +15-5555-5555
                             </h3>
@@ -35,7 +35,7 @@ const Contacto = () => {
 
                         </div>
                         <div>
-                            <h3 className="text-start font-robot text-lg ml-[-8vh] lg:ml-[26vh]">
+                            <h3 className="text-start font-robot text-lg ml-[-6vh] lg:ml-[26vh]">
                                 Ventas Mayoristas: <br />
                                 +15-5555-5555
                             </h3>
@@ -48,7 +48,7 @@ const Contacto = () => {
 
                         </div>
                         <div>
-                            <h3 className="text-start font-robot text-lg ml-[-8vh] lg:ml-[26vh]">
+                            <h3 className="text-start font-robot text-lg ml-[-6vh] lg:ml-[26vh]">
                                 Ventas Monoristas: <br />
                                 +15-5555-5555
                             </h3>
@@ -61,7 +61,7 @@ const Contacto = () => {
 
                         </div>
                         <div>
-                            <h3 className="text-start mt-3 font-robot text-lg ml-[-8vh] lg:ml-[26vh]">
+                            <h3 className="text-start mt-3 font-robot text-lg ml-[-6vh] lg:ml-[26vh]">
                             <a href="">Mail de contacto</a>
                             </h3>
                         </div>

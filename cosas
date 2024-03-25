@@ -2,3 +2,7 @@ text-center col-start-1 col-end-7  h-[10vh]
 
 
 
+<Bazar/>
+      <Catalogos/>
+      <Contacto/>
+      <Footer/>
