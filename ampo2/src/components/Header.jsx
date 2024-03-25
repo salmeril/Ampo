@@ -11,7 +11,7 @@ function Header() {
     const scrollToSection = (sectionId) => {
         const section = document.getElementById(sectionId);
         if (section) {
-            const offset = section.getBoundingClientRect().top + window.scrollY - 130;
+            const offset = section.getBoundingClientRect().top + window.scrollY - 110;
             scroll.scrollTo(offset, {
                 duration: 600,
                 smooth: 'easeInOutQuart',
