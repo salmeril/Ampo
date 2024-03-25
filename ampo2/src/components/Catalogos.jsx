@@ -14,7 +14,7 @@ function handleClick() {
 const Catalogos = () => {
     return (
 
-        <section>
+        <section id="catalogo">
         
       
             <div className=" grid">

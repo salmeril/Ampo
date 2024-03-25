@@ -7,13 +7,14 @@ import insta from '../assets/icons/instagram.png'
 
 const Footer = () => {
   return (
-    <div className=" bg-gray-500 grid grid-cols-2 ">
-       <div className=" w-4/6 md:w-1/3 xl:w-1/3 items-center flex">
-            <a href=""><img className="w-[25vh] md:ml-[5vh] lg:w-[25vh] lg:mt-[-4vh] lg:mb-[-4vh]" src={logo} alt="logo" /></a>
+    <footer className="static bottom-0 left-0 w-full bg-gray-700 text-white text-center">
+        <div className=" bg-gray-500 grid grid-cols-2 ">
+       <div className=" w-4/6 md:w-1/3 xl:w-1/3 items-center flex lg:">
+            <a href=""><img className="w-[25vh] md:ml-[5vh] lg:w-[25vh] lg:mt-[-4vh] lg:mb-[-4vh] lg:ml-[15vh]" src={logo} alt="logo" /></a>
             
         </div>
 
-        <div className="grid grid-cols-3 mt-[5vh] mr-[4vh] md:me-[10vh]">
+        <div className="grid grid-cols-3 mt-[5vh] mr-[4vh] md:me-[10svh] lg:ml-[40vh]">
             <div className="mt-[1vh] md:ml-[10vh]">
                 <a href=""><img src={face} alt="Facebook" /></a>
             
@@ -28,6 +29,7 @@ const Footer = () => {
             </div>
         </div>
     </div>
+    </footer>
   )
 }
 

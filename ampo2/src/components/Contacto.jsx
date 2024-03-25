@@ -8,7 +8,7 @@ import fotocontacto from '../assets/images/contactoimg.png'
 
 const Contacto = () => {
   return (
-    <section>
+    <section id="contacto">
         <div className="text-center mb-10">
             <h2 className="font-title font-bold text-2xl ml-[11vh] text-start md:ml-[11vh] lg:ml-[70vh] md:text-4xl md:mb-8 mt-10 text-gray-500 ">
                 Contactos

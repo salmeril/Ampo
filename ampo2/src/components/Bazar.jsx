@@ -8,7 +8,8 @@ const Bazar = () => {
 
     
   return (
-    <div className=" bg-micolor h-[65vh] md:h-[50vh] lg:h-[65vh] xl:h-[60vh] mb-10">
+    <section id="bazar">
+        <div className=" bg-micolor h-[65vh] md:h-[50vh] lg:h-[65vh] xl:h-[60vh] mb-10">
         <h2 className="font-title text-center text-white text-4xl pt-5 font-bold ml-2 mr-2 md:text-4xl lg:text-5xl md:pt-10">
             Productos de bazar y envases
         </h2>
@@ -41,6 +42,8 @@ const Bazar = () => {
 
         </div>
     </div>
+    </section>
+   
 
   )
 }

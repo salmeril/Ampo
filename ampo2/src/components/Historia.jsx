@@ -3,7 +3,7 @@ import logonosotro from '../assets/images/logonosotros.png'
 
 const Historia = () => {
   return (
-    <section className="flex lg:grid lg:grid-cols-2 bg-gray-400 h-[70vh] md:h-[50vh] lg:h-[60vh] 2xl:h-[53vh] mt-10 mb-10">
+    <section id="historia" className="flex lg:grid lg:grid-cols-2 bg-gray-400 h-[70vh] md:h-[50vh] lg:h-[60vh] 2xl:h-[53vh] mt-10 mb-10">
 
         <div className="w-full lg:ml-28 lg:mt-7">
             <h1 className=" mt-9 mb-10 md:mt-20 text-center font-title text-4xl lg:text-5xl font-bold xl:mt-20 text-white lg:mb-5 lg:text-clip">
