@@ -7,7 +7,7 @@ const Historia = () => {
     <section id="historia" className="flex lg:grid lg:grid-cols-2 bg-gray-600 h-[100vh] md:h-[100vh] lg:h-[70vh] 2xl:h-[100vh] mt-2 mb-2" style={{ backgroundImage: `url(${backgroundImage})`, }}>
 
         <div className="w-full lg:ml-28 lg:mt-7">
-            <h1 className=" mt-[20vh] mb-10 md:mt-[32vh] text-center font-title text-4xl lg:text-5xl font-bold xl:mt-26 text-white lg:mb-5 lg:text-clip">
+            <h1 className=" mt-[30vh] mb-10 md:mt-[32vh] text-center font-title text-4xl lg:text-5xl font-bold xl:mt-26 text-white lg:mb-5 lg:text-clip">
                 Sobre Nosotros
             </h1>
         <p className="text-center font-robot text-white text-xl m-5 md:m-12 md:text-xl lg:text-2xl lg:m-10 xl:mt-14">

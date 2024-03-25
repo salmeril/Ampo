@@ -29,11 +29,11 @@ const Catalogos = () => {
         
                 <div className=" w-auto md:w-[46vh] z-10 md:ml-[3vh] h-[46vh] md:h-[30vh] lg:h-[40vh] lg:w-[60vh] lg:ml-[12vh] bg-gray-100 m-3 ">
 
-                    <h3 className="font-title m-7 text-center text-2xl lg:text-3xl lg:m-10 font-bold text-gray-500">
+                    <h3 className="font-title m-7 pt-20 md:pt-0 text-center text-2xl lg:text-3xl lg:m-10 font-bold text-gray-500">
                         Catalogo envases de vidro decoración
                     </h3>
 
-                    <p className="text-center text-xl lg:text-2xl font-robot mb-4 lg:mb-8 text-gray-500 m-5 lg:m-10">
+                    <p className="text-center  text-xl lg:text-2xl font-robot mb-4 lg:mb-8 text-gray-500 m-5 lg:m-10">
                         Descubre la elegancia atemporal en nuestro catálogo de envases de vidrio.
                     </p>
   
@@ -63,7 +63,7 @@ const Catalogos = () => {
 
                 <div className=" w-auto md:w-[46vh] z-10 md:ml-[0vh] md:mt-[1vh] h-[46vh] md:h-[30vh] lg:h-[40vh] lg:w-[60vh] lg:ml-[-13vh] bg-gray-100 m-3 ">
 
-                    <h3 className="font-title m-7 text-center text-2xl lg:text-3xl lg:m-10 font-bold text-gray-500">
+                    <h3 className="font-title m-7 pt-20 md:pt-0 text-center text-2xl lg:text-3xl lg:m-10 font-bold text-gray-500">
                     Catalogo botella plastico
                     </h3>
 

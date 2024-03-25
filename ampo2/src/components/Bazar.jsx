@@ -12,7 +12,7 @@ const Bazar = () => {
         <div className=" h-[100vh] md:h-[100vh] lg:h-[65vh] xl:h-[100vh] mb-10 ">
         
         <div className="" >
-            <h2 className="font-title text-center text-white mt-[22vh] text-4xl font-bold md:text-4xl lg:text-5xl md:mt-[20vh] lg:mt-[15vh] ">
+            <h2 className="font-title text-center text-white mt-[22vh] text-4xl font-bold md:text-4xl lg:text-5xl md:mt-[30vh] lg:mt-[15vh] ">
                 Productos de Bazar y Envases
             </h2>
         </div>
@@ -33,7 +33,7 @@ const Bazar = () => {
         <div className="text-center mt-10">
             
         
-            <a href='' className="inline-block rounded-md font-medium text-2xl bg-white px-4 py-4 text-gray-700 hover:scale-110 transition duration-300 ease-in-out shadow-lg">
+            <a href='' className="inline-block rounded-md font-medium text-2xl bg-white px-4 py-4 text-gray-700 hover:scale-110 transition duration-300 ease-in-out shadow-lg mt-10">
                 Abrir Tienda
             </a>
 
