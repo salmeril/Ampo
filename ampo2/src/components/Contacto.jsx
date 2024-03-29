@@ -18,18 +18,7 @@ const Contacto = () => {
 
             <div className="grid mb-1 md:grid-cols-2 md:m-5 md:">
                 <div>
-                    <div className="grid m-2 grid-cols-2">
-                        <div>
-                        <img className=" w-13 ml-[4vh] mb-[4vh] md:ml-[8vh] md:mb-[3vh] lg:ml-[22vh] lg:mb-[5vh] xl:ml-[30vh] 2xl:ml-[45vh]" src={telefono} alt="" />
-
-                        </div>
-                        <div>
-                            <h3 className="text-start font-robot text-lg ml-[-3vh] lg:ml-[4vh]">
-                                Ventas: <br />
-                                +15-5555-5555
-                            </h3>
-                        </div>
-                    </div>
+                    
 
                     <div className="grid m-2 grid-cols-2">
                         <div>
@@ -38,8 +27,9 @@ const Contacto = () => {
                         </div>
                         <div>
                             <h3 className="text-start font-robot text-lg ml-[-3vh] lg:ml-[4vh]">
-                                Ventas Mayoristas: <br />
-                                +15-5555-5555
+                                Ventas: <br /> Facundo Alderete:
+                                    11-6478-9198 <br />
+                                    Mail:
                             </h3>
                         </div>
                     </div>
@@ -51,8 +41,24 @@ const Contacto = () => {
                         </div>
                         <div>
                             <h3 className="text-start font-robot text-lg ml-[-3vh] lg:ml-[4vh]">
-                                Ventas Minoristas: <br />
-                                +15-5555-5555
+                                Ventas: <br /> Geraldin Rodriguez:
+                                11-6612-9051 <br />
+                                Mail:
+                            </h3>
+                        </div>
+                    </div>
+
+                    <div className="grid m-2 grid-cols-2 ">
+                        <div>
+                        <img className=" w-13 ml-[4vh] mb-[4vh]  md:ml-[8vh] md:mb-[3vh] lg:ml-[22vh] lg:mb-[5vh] xl:ml-[30vh] 2xl:ml-[45vh]" src={wp} alt="" />
+
+                        </div>
+                        <div>
+                            <h3 className="text-start font-robot text-lg ml-[-3vh] lg:ml-[4vh]">
+                                Ventas: <br /> Norberto Severo:
+                                11-4022-4952 <br />
+                                Mail:
+
                             </h3>
                         </div>
                     </div>
